@@ -18,6 +18,7 @@
         <span> Welcome <%= current_user.email %> </span>
 
         <div>
+          <%= link_to "Home", root_path %>
           <%= link_to "Logout", destroy_user_session_path, method: :delete %>
         </div>
       </div>

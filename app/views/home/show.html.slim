@@ -1,1 +1,2 @@
-<p> Show episodes here... </p>
+- @episodes.each do |episode|
+  h3 = link_to episode[:name], episode_path(episode)
